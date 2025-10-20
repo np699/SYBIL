@@ -9,7 +9,7 @@ from gdt.core.plot.sky import EquatorialPlot
 from datetime import datetime
 
     
-def grb_observed(prob_obs = 30 / 360):
+def grb_observed(prob_obs = 60 / 360):
     obs_bool = np.random.choice([True, False], p=[prob_obs, 1 - prob_obs])
     if not obs_bool:    
         return False

@@ -1,10 +1,10 @@
 # Ignore these files
-/transients_kiraedits.ipynb
 FermiGBM/Fermi_GBM_Localizations_and_Skymaps_Tutorial.ipynb
 FermiGBM/Finding_GBM_Data_Tutorial.ipynb
 FermiGBM/__pycache__/
 skymaps/bns1_injection.json
 skymaps/nsbh1_injection.json
+FermiGBM/simulations/testing
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints

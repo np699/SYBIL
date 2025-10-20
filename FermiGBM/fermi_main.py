@@ -3,7 +3,7 @@ from parser import main_parser_args
 import joblib
 
 flux_area_model = joblib.load('flux_area_fit.pkl') # fit to GBM data
-#temportary fix!!!
+#FIXME temportary fix!!!
 flux_area_residuals = np.load('residuals_no_outliers.npy')
 
 def generate_skymaps():
